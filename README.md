@@ -29,7 +29,7 @@ Some optimizations i did:
 * use `FxHashMap` in threads and combine into `BtreeMap` to automatically sort it.
 * use `rfind` instead of `find` for finding the index of `;` because the city names are most likely longer than the temperature part.
 * inline functions
-* activate `lto` and some other release improvements (see [cargo.toml](./cargo.toml))
+* activate `lto` and some other release improvements (see [cargo.toml](./Cargo.toml))
 
 
 ## Result
